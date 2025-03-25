@@ -621,12 +621,12 @@ input[type="range"]:focus {
 
 .cart-item .museum-label {
   flex-grow: 1;
-  max-width: 500px;
+  max-width: 468px;
   background-color: var(--label);
   padding: 1rem;
+  margin-left: 3rem;
   box-shadow: 2px 2px 3px rgb(0,0,0,0.5);
   height: fit-content;
-  margin-left: 3rem;
   align-self: center;
   position: relative;
 }
@@ -680,12 +680,14 @@ input[type="range"]:focus {
   align-self: flex-end;
   font-size: 1.5rem;
   font-weight: bold;
-  margin-left: auto;
+  text-align: right;
+  flex-grow: 1;
 }
 
 .cart-checkout {
   align-self: flex-end;
-  margin-left: auto;
+  text-align: right;
+  flex-grow: 1;
 }
 
 @media (max-width: 600px) {
@@ -702,6 +704,15 @@ input[type="range"]:focus {
   .cart-total {
     align-self: stretch;
     text-align: center;
+  }
+
+  .cart-checkout{
+    align-self: stretch;
+    text-align: center;
+  }
+
+  .cart-checkoutbutton {
+    width: 100%;
   }
 
   .cart-item .museum-label .price {
