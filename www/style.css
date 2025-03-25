@@ -223,7 +223,11 @@ input[type="search"]:focus {
   font-style: normal;
 }
 
-
+@media (max-width: 600px) {
+  .search-form {
+    margin-top: 1rem;
+  }
+}
 /*****************************************************************************
   Framing
  *****************************************************************************/
@@ -339,6 +343,10 @@ input[type="search"]:focus {
   .framing-form {
     width: 100%;
     box-shadow: none;
+    padding: 0;
+  }
+
+  .framing-preview {
     padding: 0;
   }
 }
