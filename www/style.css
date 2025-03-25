@@ -607,6 +607,7 @@ input[type="range"]:focus {
   height: 250px;
   justify-content: center;
   flex-shrink: 0;
+  margin-right: 3rem;
 }
 
 .cart-preview img {
@@ -621,10 +622,10 @@ input[type="range"]:focus {
 
 .cart-item .museum-label {
   flex-grow: 1;
-  max-width: 468px;
+  max-width: 500px;
   background-color: var(--label);
   padding: 1rem;
-  margin-left: 3rem;
+  margin-right: 1rem;
   box-shadow: 2px 2px 3px rgb(0,0,0,0.5);
   height: fit-content;
   align-self: center;
@@ -654,9 +655,9 @@ input[type="range"]:focus {
 }
 
 .cart-item .museum-label .price {
+  margin-top: 1rem;
   font-weight: bold;
   text-align: right;
-  margin-top: 1rem;
   float: right;
 }
 
@@ -667,8 +668,8 @@ input[type="range"]:focus {
   position: absolute;
   text-align: center;
   padding: 0 0;
-  top: -0.5rem;
-  right: -0.5rem;
+  top: -0.75rem;
+  right: -0.75rem;
 }
 
 .cart-remove::before {
