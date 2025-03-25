@@ -328,6 +328,12 @@ input[type="search"]:focus {
   width: 100%;
 }
 
+@media (max-width: 800px) {
+  .framing-preview {
+    padding: 0;
+  }
+}
+
 @media (max-width: 600px) {
   .framing-main {
     flex-direction: column;
@@ -347,9 +353,6 @@ input[type="search"]:focus {
     padding: 0;
   }
 
-  .framing-preview {
-    padding: 0;
-  }
 }
 
 /* Segmented Control *********************************************************/
