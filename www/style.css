@@ -625,7 +625,6 @@ input[type="range"]:focus {
   max-width: 500px;
   background-color: var(--label);
   padding: 1rem;
-  margin-right: 1rem;
   box-shadow: 2px 2px 3px rgb(0,0,0,0.5);
   height: fit-content;
   align-self: center;
@@ -649,7 +648,7 @@ input[type="range"]:focus {
   font-style: normal;
 }
 
-.cart-item .museum-label .price::before {
+.cart-item .museum-label .detail::after {
   content: "\A"; /* This is the newline character */
   white-space: pre; /* Required to make \A work */
 }
@@ -667,7 +666,7 @@ input[type="range"]:focus {
   border-radius: 50%;
   position: absolute;
   text-align: center;
-  padding: 0 0;
+  padding: 0;
   top: -0.75rem;
   right: -0.75rem;
 }
