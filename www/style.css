@@ -699,6 +699,7 @@ input[type="range"]:focus {
   .cart-preview {
     justify-content: flex-end;
     align-self: center;
+    padding: 0;
   }
 
   .cart-total {
