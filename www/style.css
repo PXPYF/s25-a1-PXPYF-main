@@ -607,7 +607,7 @@ input[type="range"]:focus {
   height: 250px;
   justify-content: center;
   flex-shrink: 0;
-  margin-right: 3rem;
+  padding-right: 3rem;
 }
 
 .cart-preview img {
